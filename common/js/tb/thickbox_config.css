@@ -1,0 +1,29 @@
+#TB_window {
+	position: fixed;
+	background: #ffffff;
+	z-index: 102;
+	display:none;
+	border: 5px solid #333;
+	text-align:left;
+	top:50%;
+	left:50%;
+}
+#TB_caption{
+	display: none;
+}
+#TB_closeWindow{
+	height:25px;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+#TB_window {
+	overflow: visible;
+}
+
+#TB_window img#TB_Image {
+	
+	padding-left: 15px;
+	display:block;
+	margin: 15px 0 0 0px;
+}

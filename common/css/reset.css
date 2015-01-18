@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+html{
+  height:100%;
+}
+html>/**/body{
+  overflow:-moz-scrollbars-vertical;
+}
+html:first-child body{
+	min-height:100%;
+	padding-bottom:1px;
+}
+
+body,div,dl,dt,dd,ul,ol,li,
+h1,h2,h3,h4,h5,h6,
+form,fieldset,input,textarea,
+p,th,td,address{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	font-style:normal;
+}
+
+ul{
+	list-style:none;
+}
+fieldset,img{
+	border:0;
+	vertical-align: bottom;
+}	
+	
+select option{
+	padding:0 5px;
+}	
+
+form label{
+	cursor:pointer;
+}

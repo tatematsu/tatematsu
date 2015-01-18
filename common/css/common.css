@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+/*----------------------------------------------------------------
+
+index -
+
+ 00,for clearfix
+ 01,header
+ 02,content
+ 03,main
+ 04,footer
+
+----------------------------------------------------------------*/
+/*
+html {
+	background: url(../img/html_bg.gif) repeat-x bottom;
+}
+*/
+body {
+	background: url(../img/body_bg.gif) repeat-x top;
+	background-color: #efefef;
+	text-align: center;
+	font-size: 62.5%;
+	line-height: 1.5;
+	color: #736c62;
+	font-family:Verdana,Helvetica,sans-serif,Georgia,Arial; 
+}
+
+textarea {
+	font-size: 100%;
+}
+a {color: #d84f4f;text-decoration: none;}
+a:visited {color: #d84f4f;}
+a:hover {color: #ae2a2a;text-decoration: none;}
+
+/*00,for clearfix-------------------------------------------------
+----------------------------------------------------------------*/
+.clearfix:after { 
+   display: block;
+   height: 0;
+   visibility: hidden;
+   clear: both;
+   content: ".";
+}
+.clearfix {
+   display: inline-block;
+}
+/*MacIE \*/
+   * html .clearfix {height: 1em;}
+   .clearfix {display: block;}
+
+
+/*01,header-------------------------------------------------------
+----------------------------------------------------------------*/
+div#header {
+	width: 872px;
+	height: 122px;
+	margin: 0 auto;
+	padding-top: 4px;
+	background: url(../img/header_bg.gif) no-repeat;
+	text-align: left;
+}
+div#header div#header-info {
+	width: 820px;
+	height: 13px;
+	margin: 0 auto;
+	padding: 7px 0px;
+	background: url(../img/header_bg_over.gif) no-repeat center top;
+	overflow: hidden;
+}
+div#header div#header-info h1 {	
+	padding-left: 15px;
+	font-size: 1.0em;
+	font-weight: normal;
+	color: #897e6f;
+	float: left;
+}
+div#header div#header-info h1 a {
+	color: #897e6f;
+}
+div#header div#header-info h1 a:hover {
+	text-decoration: underline;
+	color: #d84f4f;
+}
+div#header-info ul {
+	float: right;
+}
+div#header-info ul li {
+	display: inline;
+}
+div#header-info ul li a {
+	padding: 0px 20px;
+	background: url(../img/header_list.gif) no-repeat 0px -17px;
+	color: #897e6f;
+	display: block;
+	float: left;
+}
+div#header-info ul li a:hover {
+	background: url(../img/header_list.gif) no-repeat 0px 0px;
+	color: #716250;
+}
+
+/*--------------------------------------------------------------*/
+div#header-logo {
+	padding-left: 40px;
+}
+div#header-logo p {
+	padding-top: 25px;
+	float: left;
+}
+/* ▼ 2009.Xmas logo */
+div#header-logo p img.xmas-logo {
+	margin-top: -5px;
+}
+/* ▲ 2009.Xmas logo */
+
+div#header-logo ul {
+	padding-top: 30px;
+	padding-right: 20px;
+	float: right;
+}
+div#header-logo ul li {
+	padding-right: 15px;
+	float: left;
+}
+
+div#header-logo ul li.star {
+	margin-top: -10px;
+}
+
+/*02,content------------------------------------------------------
+----------------------------------------------------------------*/
+div#content {
+	width: 872px;
+	margin: 0 auto;
+	background: url(../img/content_bg.gif) repeat-y center;
+	text-align: left;
+}
+
+/*03,main---------------------------------------------------------
+----------------------------------------------------------------*/
+div#main {
+	width: 872px;
+	background: url(../img/main_bg.gif) no-repeat top center;
+}
+
+/*04,footer-------------------------------------------------------
+----------------------------------------------------------------*/
+div#footer {
+	background: url(../img/footer_bg.gif) repeat-x bottom center;
+	text-align: center;
+}
+div#footer div#footer-nav {
+	width: 872px;
+	margin: 0 auto;
+	padding-top: 20px;
+	background: url(../img/content_bg.gif) repeat-y;
+	text-align: center;
+}
+div#footer div#footer-nav ul  {
+	margin: 0px 20px;
+	padding: 20px 0px;
+	border-top: #eee solid 1px;
+}
+div#footer div#footer-nav ul li {
+	padding: 0px 3px;
+	display: inline;
+}
+div#footer div#footer-nav ul li a {
+	padding: 2px;
+	color: #9a9285;
+	display: inline-block;
+	border-bottom: #FFF solid 1px;
+}
+div#footer div#footer-nav ul li a.home {
+	background: url(../img/footer_icon_home.gif) no-repeat left center;
+}
+div#footer div#footer-nav ul li a:hover {
+	color: #716250;
+	background: #f9f7f5;
+	border-bottom: #edeae6 solid 1px;
+}
+
+/*--------------------------------------------------------------*/
+div#footer address {
+	margin-top: 1px;
+	clear: both;
+}

@@ -1,0 +1,17 @@
+div#header,
+p.topic-path,
+ul#top-nav,
+div#subcol,
+div#maincol h2,
+div#maincol p.coupon img.swap,
+p.page-top,
+ul#quick-menu,
+div#footer,
+.coupon-block-left,.coupon-block-right {
+	display: none;
+}
+
+
+body {
+overflow: visible !important;
+}

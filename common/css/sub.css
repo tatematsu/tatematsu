@@ -1,0 +1,1671 @@
+@charset "utf-8";
+
+/*----------------------------------------------------------------
+
+index - sub
+
+ 00,common
+ 01,header
+ 02,content
+ 03,subcol
+ 04,maincol
+ 05,footer
+ 
+ 10,top
+ 11,about
+ 12,room
+ 13,service
+ 14,access
+ 15,coupon
+ 16,blog
+ 
+ 20,tour
+ 21,qa
+ 22,contact
+ 23,info
+ 24,sitemap
+ 
+ 25,star
+
+----------------------------------------------------------------*/
+
+/*00,common-------------------------------------------------------
+----------------------------------------------------------------*/
+body#hatsukaichi { background: url(../img/sub/body_bg_hat.gif) repeat-x top;background-color: #efefef;}
+body#kabe { background: url(../img/sub/body_bg_kab.gif) repeat-x top;background-color: #efefef;}
+body#funakoshi { background: url(../img/sub/body_bg_fun.gif) repeat-x top;background-color: #efefef;}
+
+div#main p.page-top {
+	margin-top: 20px;
+	padding: 0px 25px 0px 15px;
+	background: url(../img/main_mark_pagetop.gif) no-repeat left center;
+	float: right;
+}
+div#main p.page-top a {
+	padding: 5px 30px 5px 0px;
+	background: url(../img/main_list_arrow_top.gif) no-repeat right 4px;
+	display: block;
+	color: #736c62;
+}
+div#main p.page-top a:hover { background: url(../img/main_list_arrow_top.gif) no-repeat right -46px;}
+
+/*00,header-------------------------------------------------------
+----------------------------------------------------------------*/
+body#hatsukaichi div#header { background: url(../img/sub/header_bg_hat.gif) no-repeat;}
+body#kabe div#header { background: url(../img/sub/header_bg_kab.gif) no-repeat;}
+body#funakoshi div#header { background: url(../img/sub/header_bg_fun.gif) no-repeat;}
+
+/*02,content------------------------------------------------------
+----------------------------------------------------------------*/
+body#hatsukaichi div#main { background: url(../img/sub/main_bg_hat.gif) no-repeat top center;}
+body#kabe div#main { background: url(../img/sub/main_bg_kab.gif) no-repeat top center;}
+body#funakoshi div#main { background: url(../img/sub/main_bg_fun.gif) no-repeat top center;}
+
+/*03,subcol-------------------------------------------------------
+----------------------------------------------------------------*/
+div#main div#subcol {
+	width: 255px;
+	padding-top: 10px;
+	float: left;
+}
+div#main div#subcol h2 a {
+	margin-left: 20px;
+}
+div#main div#subcol h2.info-title {
+	padding-top: 10px;
+}
+div#main div#subcol h2.info-title a {
+	margin-left: 20px;
+}
+/*--------------------------------------------------------------*/
+div#main div#subcol p.title {
+	width: 179px;
+	margin: 10px 0px 0px 25px;
+	padding: 5px 0px 3px 30px;
+	border-bottom: #b6aa9e solid 1px;
+	background: url(../img/sub/side_mark_mapbox_title.gif) no-repeat left center;
+}
+div#main div#subcol div.block {
+	width: 203px;
+	margin-left: 25px;
+	background-color: #f9f8f8; 
+	border: #e0dbd6 solid 3px;
+	border-top: #e0dbd6 solid 2px;
+}
+div#main div#subcol div.block ul {
+	padding: 10px;
+	font-size: 1.0em;
+}
+div#main div#subcol div.block ul li {
+	padding: 4px 0px 4px 30px;
+}
+div#main div#subcol div.block ul li.acc { background: url(../img/sub/side_icon_mapbox_pin.gif) no-repeat left top;}
+div#main div#subcol div.block ul li.tel { background: url(../img/sub/side_icon_mapbox_tel.gif) no-repeat left top;}
+div#main div#subcol div.block ul li.par { background: url(../img/sub/side_icon_mapbox_car.gif) no-repeat left top;}
+
+div#main div#subcol div.block ul li span.ac-info {
+	display: block;
+	color: #CC6633;
+}
+
+div#main div#subcol div.block dl {
+	padding: 0px 10px;
+}
+div#main div#subcol div.block dl dt {
+	padding-top: 6px;
+}
+div#main div#subcol div.block p.blog-archive {
+	margin: 10px 10px 15px;
+	padding-top: 5px;
+	text-align: right;
+	border-top: #AAA dashed 1px;
+}
+div#main div#subcol div.block p.block-in-title {
+	margin: 0px 10px 10px;
+}
+
+div#main div#subcol div.code {
+	margin-top: 15px;
+	padding-top: 10px;
+	border-top: #e0dbd6 solid 3px;
+}
+div#main div#subcol div.block p.code {
+	margin-bottom: 10px;
+	text-align: center;
+}
+div#main div#subcol div.block p.code img {
+	border: #e9e8e8 solid 1px;
+}
+
+div#main div#subcol div.g-map {
+	width: 183px;
+	height: 201px;
+	margin-left: 6px;
+	padding: 6px 7px 2px 7px;
+	background: url(../img/sub/side_bg_mapbox_map.gif) no-repeat;
+}
+div#main div#subcol p.access-btn a {
+	width: 146px;
+	margin-top: -11px;
+	margin-left: 56px;
+	display: block;
+}
+div#main div#subcol ul#info-nav {
+	margin-left: 20px;
+}
+
+/*--------------------------------------------------------------*/
+div#main div#subcol div.hotel-block {
+	width: 210px;
+	margin-left: 25px;
+}
+div#main div#subcol div.hotel-block ul {
+	padding: 5px 0px;
+	border-top: #e0dbd6 solid 2px;
+	overflow: hidden;
+}
+div#main div#subcol div.hotel-block ul li {
+	float: left;
+}
+div#main div#subcol div.hotel-block p {
+	width: 210px;
+	padding-top: 5px;
+	clear: both;
+	font-size: 1.2em;
+	background: url(../img/dot_1.gif) repeat-x top;
+}
+
+/*04,maincol------------------------------------------------------
+----------------------------------------------------------------*/
+div#main div#maincol {
+	width: 590px;
+	float: left;
+}
+div#main div#maincol p {
+	margin: 0px 0px 1em 0px;
+	font-size: 1.0em;
+}
+div#main div#maincol p.topic-path {
+	height: 16px;
+	padding: 6px 12px;
+	background: url(../img/sub/main_bg_topicpath.gif) no-repeat;
+}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol div#flash-content {
+}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol ul#bottom-nav {
+	height: 45px;
+	padding-bottom: 10px;
+	background: url(../img/sub/top/nav/main_bg_nav_top.gif) no-repeat;
+}
+div#main div#maincol ul#bottom-nav li {
+	float: left;
+}
+/*--------------------------------------------------------------*/
+div#main div#maincol ul#top-nav {
+	height: 45px;
+	background: url(../img/sub/nav/main_bg_nav.gif) no-repeat bottom;
+}
+div#main div#maincol ul#top-nav li {
+	float: left;
+}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol h2 {
+	width: 590px;
+	height: 52px;
+	margin-bottom: 15px;
+	float: none;
+	background: url(../img/sub/main_title_bg_sub.gif) no-repeat top;
+}
+div#main div#maincol h2 img {
+	padding: 20px 0px 0px 20px;
+}
+div#main div#maincol h3 {
+	width: 590px;
+	padding: 4px 5px 4px 20px;
+	font-size: 1.4em;
+	background: url(../img/sub/main_title_bg_dotmark.gif) no-repeat left bottom;
+	overflow: auto;
+	clear: both;
+}
+div#main div#maincol h3 img {
+	float: left;
+}
+div#main div#maincol h3 span.archive {
+	padding: 0px 25px 0px 15px;
+	font-size: 0.85em;
+	font-weight: normal;
+	float: right;
+	background: url(../img/main_mark_pagetop.gif) no-repeat left center;
+}
+div#main div#maincol h3 span.archive a {
+	padding-left: 25px;
+	display: block;
+}
+div#main div#maincol h3 span.archive a.left { background: url(../img/main_list_arrow_left.gif) no-repeat left 0px;}
+div#main div#maincol h3 span.archive a.bottom { background: url(../img/main_list_arrow_bottom.gif) no-repeat left 0px;}
+div#main div#maincol h3 span.archive a.right { background: url(../img/main_list_arrow_right.gif) no-repeat left 0px;}
+div#main div#maincol h3 span.archive a.top { background: url(../img/main_list_arrow_top.gif) no-repeat left 0px;}
+div#main div#maincol h3 span.archive a.left:hover { background: url(../img/main_list_arrow_left.gif) no-repeat left -50px;}
+div#main div#maincol h3 span.archive a.bottom:hover { background: url(../img/main_list_arrow_bottom.gif) no-repeat left -50px;}
+div#main div#maincol h3 span.archive a.right:hover { background: url(../img/main_list_arrow_right.gif) no-repeat left -50px;}
+div#main div#maincol h3 span.archive a.top:hover { background: url(../img/main_list_arrow_top.gif) no-repeat left -50px;}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol h3.text-anc {
+	margin: 15px 0px;
+	padding: 3px 0px 3px 20px;
+	font-size: 1.0em;
+}
+div#main div#maincol h3.text-anc span.text {
+	padding-bottom: 2px;
+	font-size: 1.4em;
+	float: left;
+}
+div#main div#maincol h3.text-anc span.anc {
+	padding: 0px 20px 0px 15px;
+	font-size: 1.0em;
+	font-weight: normal;
+	float: right;
+	background: url(../img/main_mark_pagetop.gif) no-repeat left center;
+}
+div#main div#maincol h3.text-anc span.anc a {
+	padding: 1px 0px 3px 25px;
+	display: block;
+}
+
+div#main div#maincol h3 span.anc a.left { background: url(../img/main_list_arrow_left.gif) no-repeat left 0px;}
+div#main div#maincol h3 span.anc a.bottom { background: url(../img/main_list_arrow_bottom.gif) no-repeat left 0px;}
+div#main div#maincol h3 span.anc a.right { background: url(../img/main_list_arrow_right.gif) no-repeat left 0px;}
+div#main div#maincol h3 span.anc a.top { background: url(../img/main_list_arrow_top.gif) no-repeat left 0px;}
+div#main div#maincol h3 span.anc a.left:hover { background: url(../img/main_list_arrow_left.gif) no-repeat left -50px;}
+div#main div#maincol h3 span.anc a.bottom:hover { background: url(../img/main_list_arrow_bottom.gif) no-repeat left -50px;}
+div#main div#maincol h3 span.anc a.right:hover { background: url(../img/main_list_arrow_right.gif) no-repeat left -50px;}
+div#main div#maincol h3 span.anc a.top:hover { background: url(../img/main_list_arrow_top.gif) no-repeat left -50px;}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol ul.page-nav {
+	width: 590px;
+	height: 31px;
+	margin-bottom: 15px;
+	background: url(../img/sub/main_bg_pagenav.gif) no-repeat;
+}
+div#main div#maincol ul.page-nav li {
+	display: inline;
+}
+div#main div#maincol ul.page-nav li a {
+	padding: 9px 0px 9px 40px;
+	display: block;
+	float: left;
+	color: #FFF;
+	background: url(../img/main_list_arrow_bottom_bgd.gif) no-repeat 15px 9px;
+}
+div#main div#maincol ul.page-nav li a:hover { background: url(../img/main_list_arrow_bottom_bgd_on.gif) no-repeat 15px 9px; color: #FFCC99;}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol ul#quick-menu {
+	width: 590px;
+	margin-top: 30px;
+	padding-top: 10px;
+	background: url(../img/sub/main_bg_quickmenu.gif) repeat-x top;
+	clear: both;
+}
+div#main div#maincol ul#quick-menu li {
+	padding-top: 20px;
+	float: left;
+}
+div#main div#maincol ul#quick-menu li.tc { background: url(../img/sub/main_text_quick_tc.gif) no-repeat left top;}
+div#main div#maincol ul#quick-menu li.ro { background: url(../img/sub/main_text_quick_ro.gif) no-repeat left top;}
+div#main div#maincol ul#quick-menu li.co { background: url(../img/sub/main_text_quick_co.gif) no-repeat left top;}
+div#main div#maincol ul#quick-menu li.ac { background: url(../img/sub/main_text_quick_ac.gif) no-repeat left top;}
+div#main div#maincol ul#quick-menu li.se { background: url(../img/sub/main_text_quick_se.gif) no-repeat left top;}
+div#main div#maincol ul#quick-menu li.bl { background: url(../img/sub/main_text_quick_bl.gif) no-repeat left top;}
+
+div#main div#maincol ul#quick-menu li a {
+	width: 115px;
+	padding: 0px 10px 20px 70px;
+	display: block;
+	color: #9a9285;
+	float: left;
+}
+div#main div#maincol ul#quick-menu li a:hover { color: #716250;}
+
+div#main div#maincol ul#quick-menu li.tc a { background: url(../img/sub/main_btn_quick_tc.gif) no-repeat 0px 0px;}
+div#main div#maincol ul#quick-menu li.ro a { background: url(../img/sub/main_btn_quick_ro.gif) no-repeat 0px 0px;}
+div#main div#maincol ul#quick-menu li.co a { background: url(../img/sub/main_btn_quick_co.gif) no-repeat 0px 0px;}
+div#main div#maincol ul#quick-menu li.ac a { background: url(../img/sub/main_btn_quick_ac.gif) no-repeat 0px 0px;}
+div#main div#maincol ul#quick-menu li.se a { background: url(../img/sub/main_btn_quick_se.gif) no-repeat 0px 0px;}
+div#main div#maincol ul#quick-menu li.bl a { background: url(../img/sub/main_btn_quick_bl.gif) no-repeat 0px 0px;}
+div#main div#maincol ul#quick-menu li.tc a:hover { background: url(../img/sub/main_btn_quick_tc.gif) no-repeat 0px -150px;}
+div#main div#maincol ul#quick-menu li.ro a:hover { background: url(../img/sub/main_btn_quick_ro.gif) no-repeat 0px -150px;}
+div#main div#maincol ul#quick-menu li.co a:hover { background: url(../img/sub/main_btn_quick_co.gif) no-repeat 0px -150px;}
+div#main div#maincol ul#quick-menu li.ac a:hover { background: url(../img/sub/main_btn_quick_ac.gif) no-repeat 0px -150px;}
+div#main div#maincol ul#quick-menu li.se a:hover { background: url(../img/sub/main_btn_quick_se.gif) no-repeat 0px -150px;}
+div#main div#maincol ul#quick-menu li.bl a:hover { background: url(../img/sub/main_btn_quick_bl.gif) no-repeat 0px -150px;}
+
+
+/*10,top----------------------------------------------------------
+----------------------------------------------------------------*/
+div#main div#maincol dl#info-list {
+	width: 570px;
+	padding: 10px;
+	line-height: 2;
+	font-size: 1.2em;
+	background: url(../img/dot_1.gif) repeat-x bottom;
+}
+div#main div#maincol dl#info-list dt {
+	width: 80px;
+	padding: 0px 5px 0px 15px;
+	background: url(../img/sub/top/main_list_arrow_info.gif) no-repeat left center;
+	float: left;
+	clear: left;
+}
+div#main div#maincol dl#info-list dd {
+	width: 410px;
+	padding-left: 40px;
+	float: left;
+}
+div#main div#maincol dl#info-list dd img {
+	vertical-align: middle;
+	_margin: 5px 0px;
+	margin-left: -40px;
+	margin-right: 13px;
+}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol dl#info-pickup {
+	width: 570px;
+	padding: 10px 10px 8px;
+	line-height: 2;
+	font-weight: bold;
+	background: url(../../img/main_bg_news_pickup.gif);
+	border-bottom: #0AA solid 2px;
+}
+div#main div#maincol dl#info-pickup dt {
+	width: 80px;
+	padding: 0px 5px 0px 15px;
+	background: url(../img/sub/top/main_list_arrow_info.gif) no-repeat left center;
+	float: left;
+	clear: left;
+	font-size: 1.2em;
+}
+div#main div#maincol dl#info-pickup dd {
+	width: 410px;
+	padding-left: 40px;
+	float: left;
+	font-size: 1.4em;
+	line-height: 1.6;
+}
+div#main div#maincol dl#info-pickup dd a       { color: #077;}
+div#main div#maincol dl#info-pickup dd a:hover { color: #0AA;}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol div#inner-left {
+	width: 350px;
+	float: left;
+}
+/*--------------------------------------------------------------*/
+
+div#main div#maincol div#inner-left div.latest-cam {
+	width: 350px;
+	padding-top: 20px;
+}
+div#main div#maincol div#inner-left div.latest-cam h3 {
+	width: 325px;
+	margin-bottom: 10px;
+	padding-bottom: 7px;
+}
+div#main div#maincol div#inner-left div.latest-cam ul {
+	padding-bottom: 15px;
+	line-height: 2;
+	font-size: 1.2em;
+	font-weight: bold;
+	background: url(../img/sub/top/main_bg_campaing_bottom.gif) no-repeat bottom;
+}
+div#main div#maincol div#inner-left div.latest-cam ul li {
+	margin-left: 15px;
+	padding-left: 25px;
+	background: url(../img/sub/top/main_icon_coin.gif) no-repeat left 0.2em;
+}
+div#main div#maincol div#inner-left div.latest-cam ul li a { color: #2e9e92;}
+div#main div#maincol div#inner-left div.latest-cam ul li a:hover { color: #e2b124;}
+
+div#main div#maincol div#inner-left div.latest-cam p {
+	margin-top: -10px;
+	margin-right: 5px;
+	text-align: right;
+}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol div#inner-left div.latest-stf {
+	width: 350px;
+	background: url(../img/sub/top/main_bg_staffblog_top.gif) no-repeat top;
+}
+div#main div#maincol div#inner-left div.latest-stf h3 {
+	width: 290px;
+	margin: 0px;
+	padding: 25px 30px 15px;
+	background: none;
+	overflow: auto;
+}
+div#main div#maincol div#inner-left div.latest-stf dl {
+	padding-left: 30px;
+}
+div#main div#maincol div#inner-left div.latest-stf dl dd {
+	padding: 3px 20px 10px 40px;
+	font-size: 1.2em;
+}
+div#main div#maincol div#inner-left div.latest-stf dl dd img {
+	vertical-align: middle;
+	_margin: 5px 0px;
+	margin-left: -37px;
+	margin-right: 10px;
+}
+
+div#main div#maincol div#inner-left div.latest-stf p {
+	margin: 0px;
+	padding: 20px;
+	text-align: right;
+	background: url(../img/sub/top/main_bg_staffblog_bottom.gif) no-repeat bottom;
+}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol div#inner-right {
+	width: 220px;
+	padding: 15px 0px 20px 20px;
+	float: left;
+}
+/*--------------------------------------------------------------*/
+div#main div#maincol div#inner-right ul#quick-menu {
+	width: 220px;
+	margin-top: 0;
+	padding-top: 10px;
+	background: none;
+}
+div#main div#maincol div#inner-right ul#quick-menu li {
+	padding-top: 20px;
+	_margin-bottom: -20px;
+}
+
+div#main div#maincol div#inner-right ul#quick-menu li a {
+	width: 150px;
+	padding: 0px 0px 35px 70px;
+	display: block;
+	color: #9a9285;
+}
+div#main div#maincol div#inner-right ul#quick-menu li a:hover { color: #716250;}
+
+
+
+/*--------------------------------------------------------------*/
+div#main div#maincol div#inner-right p.bnr {
+	margin-bottom: 15px;
+}
+
+/*11,about-------------------------------------------------------
+----------------------------------------------------------------*/
+div#main div#maincol div.harf {
+	width: 280px;
+	padding: 0px 10px 30px 0px;
+	float: left;
+}
+div#main div#maincol div.harf-kabe {
+	width: 560px;
+	padding: 0px 10px 30px 0px;
+	float: left;
+}
+div#main div#maincol div.harf h3 {
+	width: 255px;
+	margin-bottom: 10px;
+}
+div#main div#maincol h3.credit-kabe {
+	margin-bottom: 10px;
+}
+div#main div#maincol div.harf p {
+	padding-left: 10px;
+	font-size: 1.2em;
+}
+div#main div#maincol div.harf ul.harf-list li {
+	margin-right: 20px;
+	padding-left: 20px;
+	background: url(../img/sub/main_list.gif) no-repeat left 0.2em;
+	line-height: 2;
+	display: block;
+	float: left;
+}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol div#cost-table {
+	margin: 20px 0px 20px 20px;
+}
+div#main div#maincol div#cost-table table {
+	width: 550px;
+	background: #d8d3cc;
+	border: #cfcac3 solid 3px;
+	text-align: right;
+}
+div#main div#maincol div#cost-table table th {
+	height: 24px;
+	padding-top: 3px;
+	font-size: 1.2em;
+	color: #FFF;
+	background: url(../img/sub/main_bg_table_header.gif) no-repeat top right;
+	text-align: center;
+}
+div#main div#maincol div#cost-table table th.rest {
+	width: 20%;
+}
+div#main div#maincol div#cost-table table th.in {
+	width: 60%;
+}
+div#main div#maincol div#cost-table table tr.sub-header td {
+	font-size: 1.2em;
+}
+div#main div#maincol div#cost-table table tr td {
+	padding: 3px 10px;
+	background-color: #f9f8f7;
+	border-top: #d5c9bc solid 1px;
+	border-right: #d5c9bc solid 1px;
+}
+div#main div#maincol div#cost-table table tr td.center {
+	text-align: center;
+}
+div#main div#maincol div#cost-table table tr td.right {
+	border-right: none;
+}
+div#main div#maincol div#cost-table table tr td.eco-room { background-color: #fcfbc8;}
+div#main div#maincol div#cost-table table tr td.eco { background-color: #fdfde6;}
+div#main div#maincol div#cost-table table tr td.rel-room { background-color: #dcffd3;}
+div#main div#maincol div#cost-table table tr td.rel { background-color: #f2ffef;}
+div#main div#maincol div#cost-table table tr td.pre-room { background-color: #ffdfe5;}
+div#main div#maincol div#cost-table table tr td.pre { background-color: #fff6f8;}
+div#main div#maincol div#cost-table table tr td.gor-room { background-color: #efdeca;}
+div#main div#maincol div#cost-table table tr td.gor { background-color: #f9f0e4;}
+
+div#main div#maincol div#cost-table table tr td.rank-1-room { background-color: #fcfbc8;}
+div#main div#maincol div#cost-table table tr td.rank-1 { background-color: #fdfde6;}
+div#main div#maincol div#cost-table table tr td.rank-2-room { background-color: #e2f6dc;}
+div#main div#maincol div#cost-table table tr td.rank-2 { background-color: #f2fbef;}
+div#main div#maincol div#cost-table table tr td.rank-3-room { background-color: #d9f4e9;}
+div#main div#maincol div#cost-table table tr td.rank-3 { background-color: #eefaf5;}
+div#main div#maincol div#cost-table table tr td.rank-4-room { background-color: #d0f2f6;}
+div#main div#maincol div#cost-table table tr td.rank-4 { background-color: #eaf9fb;}
+div#main div#maincol div#cost-table table tr td.rank-5-room { background-color: #d9e4e9;}
+div#main div#maincol div#cost-table table tr td.rank-5 { background-color: #eef3f5;}
+div#main div#maincol div#cost-table table tr td.rank-6-room { background-color: #e2d9dc;}
+div#main div#maincol div#cost-table table tr td.rank-6 { background-color: #f2eeef;}
+div#main div#maincol div#cost-table table tr td.rank-7-room { background-color: #efd1d3;}
+div#main div#maincol div#cost-table table tr td.rank-7 { background-color: #f8eaeb;}
+div#main div#maincol div#cost-table table tr td.rank-8-room { background-color: #ffcaca;}
+div#main div#maincol div#cost-table table tr td.rank-8 { background-color: #ffe7e7;}
+
+div#main div#maincol div#cost-table table tr td.rank-1-high { background-color: #fdfde6; color: #CC6666;}
+div#main div#maincol div#cost-table table tr td.rank-2-high { background-color: #f2fbef; color: #CC6666;}
+div#main div#maincol div#cost-table table tr td.rank-3-high { background-color: #eefaf5; color: #CC6666;}
+
+div#main div#maincol div#cost-table table tr td.hatsukaichi-time {
+	width: 22%;
+}
+/*--------------------------------------------------------------*/
+div#main div#maincol div.date-block h4 {
+	height: 20px;
+	margin: 20px 0px 10px 20px;
+	padding:  3px 10px;
+	font-size: 1.2em;
+	background: url(../img/sub/about/main_bg_date_type.gif) no-repeat;
+}
+div#main div#maincol div.date-block dl {
+	margin: 0px 0px 15px 30px;
+}
+div#main div#maincol div.date-block dl dt {
+	margin-bottom: 3px;
+	border-bottom: #eee solid 1px;
+}
+div#main div#maincol div.date-block dl dd ul li {
+	padding-left: 20px;
+	background: url(../img/sub/main_list.gif) no-repeat left 0.3em;
+	line-height: 1.8;
+	font-size: 1.2em;
+}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol div.harf p.credit-card img {
+	padding-right: 10px;
+}
+
+
+/*irregular*/
+div#main div#maincol p.year-caution-link {
+	margin: 10px 20px 0;
+	padding: 5px 10px;
+	background-color: #FFFAFA;
+	border: #EDD solid 1px;
+	clear: both;
+}
+
+div#main div#maincol div.year-caution {
+	padding: 15px 20px;
+	background-color: #FFFAFA;
+	border: #EDD solid 1px;
+	clear: both;
+}
+div#main div#maincol div.year-caution strong {
+	color: #C66;
+}
+div#main div#maincol div.year-caution h3 {
+	width: auto;
+	margin-bottom: 10px;
+	padding: 0;
+	background: none;
+}
+div#main div#maincol div.year-caution h4 {
+	font-size: 1.2em;
+	margin: 0 0 5px;
+	padding-left: 0;
+}
+div#main div#maincol div.year-caution table {
+	width: 100%;
+	margin-bottom: 15px;
+	border: #CCC solid;
+	border-width: 1px 1px 0 0;
+}
+div#main div#maincol div.year-caution table th,
+div#main div#maincol div.year-caution table td {
+	padding: 2px 5px;
+	border: #CCC solid;
+	background-color:#FFF;
+	border-width: 0 0 1px 1px;
+}
+div#main div#maincol div.year-caution table th {
+	width: 80px;
+	background-color: #EEE;
+	text-align: left;
+}
+
+
+/*12,room---------------------------------------------------------
+----------------------------------------------------------------*/
+div#main div#maincol div.room {
+	width: 560px;
+	margin-left: 15px;
+	padding: 15px 0px;
+	border-bottom: #eee solid 1px;
+	overflow: hidden;
+}
+div#main div#maincol div.end {
+	margin-bottom: 30px;
+}
+div#main div#maincol div.room dl {
+	padding-right: 20px;
+	font-size: 1.2em;
+	float: left;
+}
+div#main div#maincol div.room dl.one-photo { width: 420px;}
+div#main div#maincol div.room dl.two-photo { width: 300px;}
+div#main div#maincol div.room dl.three-photo { width: 180px;}
+
+div#main div#maincol div.room dl dt {
+	margin-bottom: 5px;
+	padding-left: 25px;
+	color: #b45050;
+	font-weight: bold;
+	background: url(../img/main_icon_door.gif) no-repeat left center;
+}
+div#main div#maincol div.room dl dt span {
+	margin-left: 10px;
+	font-size: 0.875em;
+	font-weight: normal;
+}
+div#main div#maincol div.room dl dt span a {
+	padding: 1px 3px;
+	background-color: #F6F6F6;
+	border-bottom: #DDD solid 1px;
+}
+div#main div#maincol div.room dl dt span a:hover {
+	background-color: #C66;
+	border-top: #933 solid 1px;
+	color: #FFF;
+}
+div#main div#maincol div.room dl dd {
+	padding-left: 5px;
+}
+div#main div#maincol div.room dl dd span.pc {
+	display: block;
+	padding: 2px 0 2px 20px;
+	font-size: 0.87em;
+	font-weight: bold;
+	color: #09C;
+	background: url(../img/sub/room/icon_pc.gif) no-repeat left center;
+}
+
+div#main div#maincol div.room ul {
+	width: 360px;
+	text-align: right;
+	float: right;
+}
+div#main div#maincol div.room ul.one-photo { width: 120px;}
+div#main div#maincol div.room ul.two-photo { width: 240px;}
+div#main div#maincol div.room ul.three-photo { width: 360px;}
+
+div#main div#maincol div.room ul li {
+	display: inline;
+	padding-left: 10px;
+	float: left;
+}
+
+/*13,service------------------------------------------------------
+----------------------------------------------------------------*/
+div#main div#maincol h4 {
+	margin: 0px 20px 0px;
+	padding-left: 20px;
+	font-size: 1.2em;
+	font-weight: bold;
+	clear: left;
+}
+div#main div#maincol h4.fac { background: url(../img/sub/service/main_mark_fac.gif) no-repeat left 0.1em;}
+div#main div#maincol h4.off { background: url(../img/sub/service/main_mark_off.gif) no-repeat left 0.1em;}
+div#main div#maincol h4.other { background: url(../img/sub/service/main_mark_other.gif) no-repeat left 0.1em;}
+
+div#main div#maincol div.service {
+	margin: 0px 20px;
+	padding: 20px 0px 10px;
+	background: url(../img/sub/service/main_bg_service.gif) repeat-x top;
+}
+div#main div#maincol div.service p {
+	margin-bottom: 0px;
+	padding: 0px 10px;
+	font-size: 1.2em;
+}
+div#main div#maincol div.service p.service-ex {
+	margin-top: 20px;
+	line-height: 2;
+	font-weight: bold;
+	color: #C00;
+}
+div#main div#maincol div.service p.service-subtitle {
+	margin: 10px;
+	margin-bottom: 5px;
+	padding: 0px;
+	font-size: 1.0em;
+	font-weight: bold;
+}
+div#main div#maincol div.service p.info {
+	padding-top: 5px;
+	margin-bottom: 20px;
+	font-size: 1.0em;
+	clear: both;
+}
+div#main div#maincol div.service p img {
+	margin-bottom: 10px;
+	padding-left: 10px;
+	float: right;
+}
+div#main div#maincol div.service p span.caution {
+	padding: 5px 0px;
+	color: #CC3333;
+	display: block;
+}
+div#main div#maincol div.service ul {
+	margin: 5px 20px;
+}
+div#main div#maincol div.service ul li {
+	padding-left: 20px;
+	background: url(../img/sub/main_list.gif) no-repeat left center;
+}
+
+div#main div#maincol div.service dl {
+	width: 250px;
+	padding: 15px 8px;
+	float: left;
+}
+div#main div#maincol div.service dl dt {
+}
+div#main div#maincol div.service dl dt img {
+	padding: 2px;
+	border: #CCCCCC solid 1px;
+}
+div#main div#maincol div.service dl dt a:hover img {
+	opacity:0.8;
+	filter: alpha(opacity=80);
+}
+
+div#main div#maincol div.service dl dd {
+	margin-bottom: 20px;
+}
+div#main div#maincol div.service dl dd a {
+	padding: 5px 0px 5px 25px;
+	font-size: 1.2em;
+	font-weight: bold;
+	background: url(../img/main_list_arrow_right.gif) no-repeat 0px 5px;
+	display: block;
+}
+div#main div#maincol div.service dl dd a:hover {
+	background: url(../img/main_list_arrow_right.gif) no-repeat 0px -45px;
+}
+div#main div#maincol div.service dl dd span {
+	padding-left: 25px;
+	display: block;
+}
+
+/*14,access-------------------------------------------------------
+----------------------------------------------------------------*/
+div#main div#maincol div#map {
+	margin: 0px 20px;
+	border: #6d5f4c solid 5px;
+}
+div#main div#maincol p.btn-action {
+	padding: 10px 0px;
+	text-align: center;
+}
+
+div#main div#maincol div.section {
+	margin: 20px;
+}
+div#main div#maincol div.section p {
+	font-size: 1.2em;
+}
+div#main div#maincol div.section p.img-left {
+	float: left;
+}
+div#main div#maincol div.section dl#hotel-info {
+	width: 320px;
+	margin-bottom: 30px;
+	padding-left: 20px;
+	font-size: 1.2em;
+	float: left;
+}
+div#main div#maincol div.section dl#hotel-info dt {
+	width: 70px;
+	margin-bottom: 7px;
+	padding: 2px 20px 2px 16px;
+	float: left;
+	font-weight: bold;
+	background: url(../img/main_mark_light.gif) no-repeat left 0.2em;
+}
+div#main div#maincol div.section dl#hotel-info dd {
+	width: 210px;
+	margin-bottom: 7px;
+	padding: 2px 0px;
+	float: left;
+}
+
+/*15,coupon-------------------------------------------------------
+----------------------------------------------------------------*/
+div#main div#maincol div#coupon-block {
+	width: 590px;
+}
+div#main div#maincol div#coupon-block p.coupon {
+	width: 320px;
+	padding-left: 20px;
+	float: left;
+	text-align: center;
+}
+div#main div#maincol div#coupon-block p.coupon img {
+	margin-bottom: 20px;
+}
+div#main div#maincol div#coupon-block dl {
+	width: 210px;
+	padding-left: 10px;
+	float: left;
+}
+div#main div#maincol div#coupon-block dl dt {
+	padding: 4px 0px 4px 30px;
+	font-weight: bold;
+}
+div#main div#maincol div#coupon-block dl dt.coupon-about { background: url(../img/sub/coupon/main_icon_coupon_about.gif) no-repeat left top;}
+div#main div#maincol div#coupon-block dl dt.coupon-caution { background: url(../img/sub/coupon/main_icon_coupon_caution.gif) no-repeat left top;}
+
+div#main div#maincol div#coupon-block dl dd {
+	background: url(../img/dot_1.gif) repeat-x top;
+}
+div#main div#maincol div#coupon-block dl dd ul {
+	padding: 10px 0px 10px 10px;
+}
+div#main div#maincol div#coupon-block dl dd ul li {
+	margin-bottom: 10px;
+	padding-left: 20px;
+	background: url(../img/sub/main_list.gif) no-repeat left 0.1em;
+}
+
+div#main div#maincol div.section ul.contact-about {
+	padding-top: 10px;
+	background: url(../img/dot_1.gif) repeat-x top;
+}
+
+div#main div#maincol div#coupon-block h3 {
+	margin-bottom: 20px;
+	color: #C30;
+}
+div#main div#maincol div#coupon-block p.coupon-print {
+	margin-bottom: 20px;
+}
+div#main div#maincol div#coupon-block div.coupon-block-left dl {
+	width: 360px;
+	margin-bottom: 30px;
+}
+div#main div#maincol div#coupon-block div.coupon-block-right {
+	width: 200px;
+	margin-bottom: 30px;
+	float: right;
+}
+div#main div#maincol div#coupon-block div.coupon-block-right h4 {
+	width: auto;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+/*16,blog---------------------------------------------------------
+----------------------------------------------------------------*/
+div#main div#maincol div.post {
+	width: 550px;
+	margin: 20px 20px 30px;
+	overflow: hidden;
+}
+div#main div#maincol div.post p.date {
+	margin-bottom: 0px;
+	color: #b45050;
+}
+div#main div#maincol div.post h3 {
+	width: 550px;
+	margin: 0px;
+	padding: 0px 0px 20px 0px;
+	background: url(../img/sub/blog/main_bg_posttitle.gif) repeat-x bottom;
+}
+div#main div#maincol div.post h3 a { color:#736c62;}
+div#main div#maincol div.post h3 a:hover { color:#e28370;}
+div#main div#maincol div.post div.stage {
+	margin: 0px 25px 10px;
+	padding-left: 15px;
+	border-left: #d6c9bd solid 4px;
+	font-size: 1.2em;
+	width: 490px;
+	overflow: hidden;
+}
+div#main div#maincol div.post p.post-info {
+	padding-top: 10px;
+	background: url(../img/dot_1.gif) repeat-x top;
+	text-align: right;
+	clear: both;
+}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol div.content-nav {
+	width: 590px;
+	height: 23px;
+	margin-bottom: 20px;
+	padding-top: 8px;
+	background: url(../img/sub/blog/main_bg_contentnav.gif) no-repeat;
+	text-align: center;
+}
+div#main div#maincol div.content-nav a { color: #FFFFFF;}
+div#main div#maincol div.content-nav a:hover { color: #FFCC99;}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol div#blog-widget {
+	width: 550px;
+	padding: 10px 20px;
+	border-top: #666 solid 4px;
+	background: url(../img/sub/blog/main_bg_widget.gif) no-repeat bottom;
+	overflow: auto;
+}
+div#main div#maincol div#blog-widget h4 {
+	margin: 0px;
+	padding: 10px 0px 0px;
+	font-size: 1.2em;
+}
+div#main div#maincol div#blog-widget ul {
+	margin: 5px 0px;
+}
+div#main div#maincol div#blog-widget ul li {
+	padding-left: 20px;
+	line-height: 2;
+	background: url(../img/sub/main_list.gif) no-repeat left 0.3em;
+}
+div#main div#maincol div#blog-widget p.archive-link {
+	background: url(../img/dot_1.gif) repeat-x top;
+	padding-top: 5px;
+	text-align: right;
+}
+div#main div#maincol div#blog-widget p.archive-link a {
+	padding-left: 15px;
+	background: url(../img/sub/blog/main_list_arrow_archive.gif) no-repeat 0px center;
+}
+
+div#main div#maincol div#blog-widget div.w-left {
+	width: 160px;
+	padding-right: 10px;
+	float: left;
+}
+div#main div#maincol div#blog-widget div.w-right {
+	width: 380px;
+	float: left;
+}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol ul#archive-list {
+	width: 510px;
+	margin-bottom: 20px;
+	padding: 10px 40px;
+	font-size: 1.2em;
+}
+div#main div#maincol ul#archive-list li {
+	padding: 3px 0px 3px 25px;
+	background: url(../../info/img/main_list_site.gif) no-repeat left 0.2em;
+}
+div#main div#maincol ul#archive-list li a {
+	padding: 0px 5px;
+	font-weight: bold;
+}
+div#main div#maincol ul#archive-list {
+}
+
+/*20,tour---------------------------------------------------------
+----------------------------------------------------------------*/
+div#main div#maincol ul.tab-menu li.wo a { background: url(../img/main_bg_tab_wo.gif) no-repeat top; font-weight: bold;}
+div#main div#maincol ul.tab-menu li.da a { background: url(../img/main_bg_tab_da.gif) no-repeat top; font-weight: bold;}
+div#main div#maincol ul.tab-menu li.gu a { background: url(../img/main_bg_tab_gu.gif) no-repeat top; font-weight: bold;}
+div#main div#maincol ul.tab-menu li.wo a:hover { background: url(../img/main_bg_tab_wo.gif) no-repeat bottom; font-weight: bold;}
+div#main div#maincol ul.tab-menu li.da a:hover { background: url(../img/main_bg_tab_da.gif) no-repeat bottom; font-weight: bold;}
+div#main div#maincol ul.tab-menu li.gu a:hover { background: url(../img/main_bg_tab_gu.gif) no-repeat bottom; font-weight: bold;}
+
+div#main div#maincol div#tour-block {
+	height: 360px;
+	margin: 1px 0px 30px;
+	_margin-bottom: 0px;
+	background: url(../../info/img/main_tourmap.jpg) no-repeat;
+}
+
+div#main div#maincol div#tour-block ul {
+	position: relative;
+}
+div#main div#maincol div#tour-block ul li { position: absolute;}
+div#main div#maincol div#tour-block ul li.onmap-sone { top: 310px; left: 185px;}
+div#main div#maincol div#tour-block ul li.onmap-stwo { top: 165px; left: 385px;}
+
+div#main div#maincol div#tour-block ul li.onmap-done { top: 170px; left: 415px;}
+div#main div#maincol div#tour-block ul li.onmap-dtwo { top: 90px; left: 525px;}
+
+div#main div#maincol div#tour-block ul li.onmap-gone { top: 245px; left: 200px;}
+div#main div#maincol div#tour-block ul li.onmap-gtwo { top: 225px; left: 210px;}
+div#main div#maincol div#tour-block ul li.onmap-gthree { top: 0px; left: 342px;}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol div#tour-main h3 {
+	width: auto;
+}
+div#main div#maincol div#tour-main {
+	width: 360px;
+	padding: 0px 20px 0px 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	float: left;
+	border-right: #eee solid 1px;
+}
+div#main div#maincol div#tour-main h4 {
+	margin: 20px 0px 0px;
+	padding: 0px 0px 0px 20px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+div#main div#maincol div#tour-main h4#sone { background: url(../../info/img/tour-num/gr_01.gif) no-repeat left 0.1em;}
+div#main div#maincol div#tour-main h4#stwo { background: url(../../info/img/tour-num/gr_02.gif) no-repeat left 0.1em;}
+div#main div#maincol div#tour-main h4#sthree { background: url(../../info/img/tour-num/gr_03.gif) no-repeat left 0.1em;}
+div#main div#maincol div#tour-main h4#sfour { background: url(../../info/img/tour-num/gr_04.gif) no-repeat left 0.1em;}
+
+div#main div#maincol div#tour-main h4#done { background: url(../../info/img/tour-num/pu_01.gif) no-repeat left 0.1em;}
+div#main div#maincol div#tour-main h4#dtwo { background: url(../../info/img/tour-num/pu_02.gif) no-repeat left 0.1em;}
+div#main div#maincol div#tour-main h4#dthree { background: url(../../info/img/tour-num/pu_03.gif) no-repeat left 0.1em;}
+div#main div#maincol div#tour-main h4#dfour { background: url(../../info/img/tour-num/pu_04.gif) no-repeat left 0.1em;}
+
+div#main div#maincol div#tour-main h4#gone { background: url(../../info/img/tour-num/or_01.gif) no-repeat left 0.1em;}
+div#main div#maincol div#tour-main h4#gtwo { background: url(../../info/img/tour-num/or_02.gif) no-repeat left 0.1em;}
+div#main div#maincol div#tour-main h4#gthree { background: url(../../info/img/tour-num/or_03.gif) no-repeat left 0.1em;}
+div#main div#maincol div#tour-main h4#gfour { background: url(../../info/img/tour-num/or_04.gif) no-repeat left 0.1em;}
+
+div#main div#maincol div#tour-main div.spot  {
+	margin-bottom: 40px;
+}
+div#main div#maincol div#tour-main div.spot p {
+	font-size: 1.2em;
+}
+div#main div#maincol div#tour-main div.spot ul.spot-info {
+	widows: 360px;
+	height: 18px;
+	margin-top: 3px;
+	padding-top: 5px;
+	background: url(../../info/img/main_bg_tour_info.gif) no-repeat;
+}
+div#main div#maincol div#tour-main div.spot ul.spot-info li {
+	padding-right: 10px;
+	float: right;
+}
+div#main div#maincol div#tour-main div.spot dl dt {
+	margin: 10px 10px 0px;
+	font-size: 1.2em;
+}
+div#main div#maincol div#tour-main div.spot dl dd ul {
+	widows: 360px;
+	margin-bottom: 1em;
+	padding: 5px 20px;
+}
+div#main div#maincol div#tour-main div.spot dl dd ul li {
+	padding-left: 20px;
+	background: url(../img/sub/main_list.gif) no-repeat left top;
+}
+
+div#main div#maincol div#tour-main div.spot ul.link {
+	padding-top: 10px;
+	background: url(../img/dot_1.gif) repeat-x top;
+}
+div#main div#maincol div#tour-main div.spot ul.link li {
+	padding-bottom: 10px;
+	background: url(../img/dot_1.gif) repeat-x bottom;
+}
+div#main div#maincol div#tour-main div.spot ul.link li a {
+	margin-left: 10px;
+	padding-left: 20px;
+	background: url(../img/main_list_blank.gif) no-repeat left center;
+	display: block;
+	font-size: 1.2em;
+}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol div#tour-side {
+	width: 150px;
+	margin: 20px 0px;
+	float: left;
+}
+div#main div#maincol div#tour-side dl {
+	margin-bottom: 20px;
+}
+div#main div#maincol div#tour-side dl dt {
+	width: 130px;
+	height: 17px;
+	padding: 7px 10px;
+	background: url(../img/sub/main_bg_pagenav_mini.gif) no-repeat;
+}
+div#main div#maincol div#tour-side dl dt a {
+	padding: 3px 0px 3px 25px;
+	background: url(../img/main_list_arrow_bottom_bgd.gif) no-repeat left center;
+	display: block;
+	color: #FFF;
+}
+div#main div#maincol div#tour-side dl dd ul {
+	padding: 5px 10px;
+}
+div#main div#maincol div#tour-side dl dd ul li {
+	line-height: 2;
+	padding-left: 20px;
+}
+div#main div#maincol div#tour-side dl dd ul li.sone { background: url(../../info/img/tour-num/gr_01.gif) no-repeat left 0.1em;}
+div#main div#maincol div#tour-side dl dd ul li.stwo { background: url(../../info/img/tour-num/gr_02.gif) no-repeat left 0.1em;}
+div#main div#maincol div#tour-side dl dd ul li.sthree { background: url(../../info/img/tour-num/gr_03.gif) no-repeat left 0.1em;}
+div#main div#maincol div#tour-side dl dd ul li.sfour { background: url(../../info/img/tour-num/gr_04.gif) no-repeat left 0.1em;}
+
+div#main div#maincol div#tour-side dl dd ul li.done { background: url(../../info/img/tour-num/pu_01.gif) no-repeat left 0.1em;}
+div#main div#maincol div#tour-side dl dd ul li.dtwo { background: url(../../info/img/tour-num/pu_02.gif) no-repeat left 0.1em;}
+div#main div#maincol div#tour-side dl dd ul li.dthree { background: url(../../info/img/tour-num/pu_03.gif) no-repeat left 0.1em;}
+div#main div#maincol div#tour-side dl dd ul li.dfour { background: url(../../info/img/tour-num/pu_04.gif) no-repeat left 0.1em;}
+
+div#main div#maincol div#tour-side dl dd ul li.gone { background: url(../../info/img/tour-num/or_01.gif) no-repeat left 0.1em;}
+div#main div#maincol div#tour-side dl dd ul li.gtwo { background: url(../../info/img/tour-num/or_02.gif) no-repeat left 0.1em;}
+div#main div#maincol div#tour-side dl dd ul li.gthree { background: url(../../info/img/tour-num/or_03.gif) no-repeat left 0.1em;}
+div#main div#maincol div#tour-side dl dd ul li.gfour { background: url(../../info/img/tour-num/or_04.gif) no-repeat left 0.1em;}
+
+/*21,qa-----------------------------------------------------------
+----------------------------------------------------------------*/
+div#main div#maincol ul.tab-menu {
+	height: 1%;
+	min-height: 1%;
+	font-size: 1.2em;
+	display: inline-block;
+	/* \*/display: block;/* */
+}
+div#main div#maincol ul.tab-menu:after {
+	height: 0;
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+
+div#main div#maincol ul.tab-menu li {
+	padding-right: 1px;
+	float: left;
+}
+div#main div#maincol ul.tab-menu li.end {
+	padding-right: 0px;
+}
+div#main div#maincol ul.tab-menu li a {
+	width: 185px;
+	height: 24px;
+	padding: 5px 0px 0px 11px;
+	color: #FFF;
+	background: url(../img/main_bg_tab_off.gif) no-repeat top;
+	display: block;
+}
+div#main div#maincol ul.tab-menu li a:hover {
+	background: url(../img/main_bg_tab_on.gif) no-repeat top;
+}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol ul#qa-list {
+	margin: 20px;
+	font-size: 1.2em;
+}
+div#main div#maincol ul#qa-list li {
+	padding-left: 25px;
+	line-height: 2;
+	background: url(../img/sub/main_list.gif) no-repeat left 0.3em;
+}
+div#main div#maincol ul#qa-list li a {
+	color:#0099BB;
+}
+
+div#main div#maincol dl#qa-block {
+	margin: 20px;
+	padding-bottom: 10px;
+	font-size: 1.2em;
+}
+div#main div#maincol dl#qa-block dt {
+	margin-bottom: 5px;
+	padding-left: 25px;
+	color:#0099BB;
+	background: url(../../info/img/main_mark_q.gif) no-repeat left 0.2em;
+}
+div#main div#maincol dl#qa-block dd {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	padding-left: 25px;
+	background: url(../img/dot_1.gif) repeat-x bottom;
+}
+div#main div#maincol dl#qa-block dd span.answer {
+	margin-left: -25px;
+	padding-left: 25px;
+	color: #CC3333;
+	font-weight: bold;
+	background: url(../../info/img/main_mark_a.gif) no-repeat left 0.2em;
+	display: block;
+}
+
+
+/*22,contact------------------------------------------------------
+----------------------------------------------------------------*/
+div#main div#maincol div.contact-area {
+	width: 160px;
+	margin-bottom: 20px;
+	padding-left: 25px;
+	_padding-left: 20px;
+	float: left;
+}
+div#main div#maincol div.contact-area first-ca {
+	padding-left: 0px;
+}
+
+div#main div#maincol h4.contact-title {
+	width: 140px;
+	margin: 0px;
+	padding: 5px 0px 3px 30px;
+	border-bottom: #b6aa9e solid 1px;
+	background: url(../img/sub/side_mark_mapbox_title.gif) no-repeat left center;
+}
+div#main div#maincol div.contact-block {
+	width: 164px;
+	margin-bottom: 20px;
+	background-color: #f9f8f8; 
+	border: #e0dbd6 solid 3px;
+	border-top: #e0dbd6 solid 2px;
+}
+div#main div#maincol div.contact-block ul {
+	padding: 10px;
+	font-size: 1.0em;
+}
+div#main div#maincol div.contact-block ul li {
+	line-height: 2;
+	padding: 2px 0px 2px 30px;
+}
+div#main div#maincol div.contact-block ul li.acc { background: url(../img/sub/side_icon_mapbox_pin.gif) no-repeat left 0.1em;}
+div#main div#maincol div.contact-block ul li.tel { background: url(../img/sub/side_icon_mapbox_tel.gif) no-repeat left 0.1em;}
+div#main div#maincol div.contact-block ul li.par { background: url(../img/sub/side_icon_mapbox_car.gif) no-repeat left 0.1em;}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol div#contact-table {
+	margin: 20px 0px;
+}
+div#main div#maincol div#contact-table table {
+	width: 550px;
+	background: #d8d3cc;
+	border: #cfcac3 solid 3px;
+	text-align: right;
+}
+div#main div#maincol div#contact-table table th {
+	height: 24px;
+	padding-top: 3px;
+	color: #FFF;
+	background: url(../img/sub/main_bg_table_header.gif) no-repeat top right;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+div#main div#maincol div#contact-table table tr td {
+	width: 15%;
+	padding: 3px 10px;
+	font-size: 1.4em;
+	background-color: #f9f8f7;
+	border-top: #d5c9bc solid 1px;
+	border-right: #d5c9bc solid 1px;
+	text-align: center;
+}
+div#main div#maincol div#contact-table table tr td.hotel-name {
+	font-size: 1.2em;
+	width: 40%;
+}
+div#main div#maincol div#contact-table table tr td.right {
+	border-right: none;
+}
+
+/*23,info---------------------------------------------------------
+----------------------------------------------------------------*/
+div#main div#maincol div.policy {
+	margin-bottom: 30px;
+	font-size: 1.2em;
+}
+div#main div#maincol div.policy-noheader {
+	margin: 15px 25px 30px;
+	font-size: 1.2em;
+}
+div#main div#maincol div.policy h4 {
+	margin: 0px;
+	padding: 10px 20px;
+	font-size: 1.0em;
+	font-weight: bold;
+	clear: left;
+	background: url(../img/main_mark_light.gif) no-repeat left center;
+}
+div#main div#maincol div.policy h5 {
+	margin-left: 20px;
+	padding-left: 20px;
+	font-size: 1.0em;
+	font-weight: normal;
+	background: url(../img/sub/main_list.gif) no-repeat left center;
+}
+div#main div#maincol div.policy ul {
+	padding: 5px 0px 10px;
+	margin: 0px  50px;
+}
+
+div#main div#maincol div.policy p {
+	margin: 0px 25px 1em;
+	font-size: 1.0em;
+}
+div#main div#maincol div.policy p.link-info {
+	margin-top: 15px;
+}
+
+/*24,sitemap------------------------------------------------------
+----------------------------------------------------------------*/
+div#main div#maincol h3.sitemap-home {
+	width: auto;
+	margin: 0px 20px 10px;
+	padding: 10px 0px;
+	background: url(../img/dot_1.gif) repeat-x bottom;
+}
+div#main div#maincol h3.sitemap-home a {
+	padding: 10px 0px 10px 25px;
+	background: url(../img/main_list_arrow_right.gif) no-repeat left 10px;
+}
+div#main div#maincol h3.sitemap-home a:hover {
+	background: url(../img/main_list_arrow_right.gif) no-repeat left -40px;
+}
+div#main div#maincol div.sitemap-block {
+	width: 180px;
+	padding-left: 10px;
+	margin-bottom: 20px;
+	float: left;
+}
+div#main div#maincol div.first-smb {
+	padding-left: 15px;
+}
+
+div#main div#maincol div.sitemap-block h3 {
+	width: 180px;
+	margin: 0px;
+	padding: 0px;
+	background: none;
+}
+div#main div#maincol div.sitemap-block dl {
+	padding: 5px 20px;
+	clear: both;
+}
+div#main div#maincol div.sitemap-block dt {
+	margin-bottom: 5px;
+	font-size: 1.2em;
+}
+div#main div#maincol div.sitemap-block dt a {
+	padding: 5px 0px 5px 25px;
+	background: url(../../info/img/main_list_site.gif) no-repeat left center;
+}
+div#main div#maincol div.sitemap-block dd {
+	margin-bottom: 10px;
+}
+div#main div#maincol div.sitemap-block dd a {
+	margin-bottom: 2px;
+	padding-left: 20px;
+	line-height: 1.8;
+	background: url(../img/sub/main_list.gif) no-repeat left 0.1em;
+	color: #736c62;
+	display: block;
+}
+div#main div#maincol div.sitemap-block dd a:hover {
+	color: #d84f4f;
+}
+
+div#main div#maincol div.sitemap-list {
+	margin-bottom: 10px;
+	clear: both;
+}
+div#main div#maincol div.sitemap-list h3 {
+	margin-bottom: -12px;
+	padding: 10px 0px 10px 25px;
+	background: url(../img/main_list_arrow_right.gif) no-repeat left 10px;
+}
+div#main div#maincol div.sitemap-list h3:hover {
+	background: url(../img/main_list_arrow_right.gif) no-repeat left -40px;
+}
+div#main div#maincol div.sitemap-list h3 span.sub {
+	padding-left: 20px;
+	font-size: 0.85em;
+	font-weight: normal;
+}
+
+/*25,star---------------------------------------------------------
+----------------------------------------------------------------*/
+body#star div#main {
+	width: 846px;
+	padding-left: 26px;
+	background: url(../img/main_bg.gif) no-repeat top center;
+}
+body#star div#main #maincol {
+	width: 820px;
+}
+body#star div#main div#maincol p.topic-path {
+	height: 16px;
+	padding: 6px 12px;
+	background: url(../img/sub/main_bg_topicpath_1row.gif) no-repeat;
+}
+body#star div#main #maincol h2,
+body#star div#main #maincol h2 img {
+	height: auto;
+	margin: 0;
+	margin-left: -2px;
+	padding: 0;
+	background: none;
+}
+
+body#star div#main #maincol #star-header {
+	width: 820px;
+	margin-left: 1px;
+	background-color: #FFF;
+	overflow: hidden;
+}
+body#star div#main #maincol #star-header h3 {
+	width: auto;
+	height: 30px;
+	margin: 0;
+	padding: 7px 0;
+	background: none;
+	text-align: center;
+	color: #630;
+	font-weight: normal;
+	font-size: 2em;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino,"ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+	overflow: visible;
+}
+body#star div#main #maincol #starRanking {
+	width: 820px;
+	height: 144px;
+	overflow: hidden;
+	background: url(../../uranai/img/ranking_mainimg.jpg) no-repeat left top;
+}
+body#star div#main #maincol #starRanking a {
+	color: #ee7cc8;
+	text-decoration: underline;
+}
+body#star div#main #maincol #starRanking a:visited {
+	color: #FFFFFF;
+	text-decoration: none
+}
+
+body#star div#main #maincol #starRanking a:hover {
+	text-decoration: none;
+	color:#ee7cc8;
+}
+
+body#star div#main #maincol #starRanking h4 {
+	display: none;
+}
+body#star div#main #maincol #starRanking ol {
+	width: 570px;
+	height: 144px;
+	list-style-type: none;
+	margin-left: 290px;
+	color: #ee7cc8;
+}
+body#star div#main #maincol #starRanking ol li.top3 {
+	float: left;
+	width: 130px;
+	padding-top: 10px;
+	line-height: 2;
+	font-size: 2.2em;
+	margin-right: 50px;
+}
+body#star div#main #maincol #starRanking ol li.otherRanks {
+	float: left;
+	width: 130px;
+	height: 144px;
+	padding-top: 6px;
+	line-height: 2.8;
+	font-size: 1.6em;
+}
+
+body#star div#main #maincol #star-contents {
+	width: 870px;
+	margin-left: -25px;
+	padding-top: 5px;
+	background: url(../../uranai/img/star_bg.gif) no-repeat center top;
+}
+
+body#star div#main #maincol #star-contents .star-row {
+	width: 870px;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+body#star div#main #maincol #star-contents .star-row .star-sec {
+	width: 400px;
+	margin-left: 23px;
+	padding-top: 27px;
+	float: left;
+	display: inline;
+	background: url(../../uranai/img/star_sec_bg.gif) no-repeat center top;
+	overflow: hidden;
+}
+body#star div#main #maincol #star-contents .star-row .star-sec .star-title {
+	width: 150px;
+	float: right;
+}
+body#star div#main #maincol #star-contents .star-row .star-sec .star-title h4 {
+	width: 150px;
+	margin: 0 0 15px;
+	padding: 0;
+	background: none;
+}
+body#star div#main #maincol #star-contents .star-row .star-sec .star-info {
+	width: 250px;
+	float: left;
+}
+body#star div#main #maincol #star-contents .star-row .star-sec .star-info p {
+	font-size: 1.2em;
+	padding-left: 10px;
+}
+body#star div#main #maincol #star-contents .star-row .star-sec .star-info dl {
+	margin-bottom: 10px;
+	font-size: 1.2em;
+	padding-left: 10px;
+	star-secborder: 1px solid #F00;
+	
+	xborder: 1px solid #F00;	
+}
+body#star div#main #maincol #star-contents .star-row .star-sec .star-info dl dt {
+	width: 6.9em;
+	padding-right: 10px;
+	padding: 2px 10px 2px 0;
+	/*float: left;*/
+}
+body#star div#main #maincol #star-contents .star-row .star-sec .star-info dl dd {
+	margin-left: 6.9em;
+	margin-top: -17px;
+	font-weight: bold;
+	
+	xborder: 1px solid #F00;
+}
+*:first-child+html body#star div#main #maincol #star-contents .star-row .star-sec .star-info dl dd {
+	margin-left: 6.9em;
+	margin-top: -18px;	
+	xborder: 1px solid #F00;
+}
+
+body#star div#main #maincol #star-contents .star-row .star-sec .star-info p.item {
+	width: 245px;
+	height: 35px;
+	padding: 20px 0 0 0;
+	text-align: center;
+	color: #C00;
+	font-weight: bold;
+	background: url(../../uranai/img/star_bg_item.jpg) no-repeat;
+}
+
+body#star div#main #maincol #profile {
+	width: 820px;
+	margin-bottom: 20px;
+	background-color:#000;
+	overflow: hidden;
+}
+body#star div#main #maincol #profile p.photo {
+	width: 180px;
+	float: left;
+}
+body#star div#main #maincol #profile dl {
+	padding: 30px 20px 20px 0;
+	font-size: 1.2em;
+	font-weight: normal;
+	color: #FFF;
+	line-height: 2;
+	background: url(../../uranai/img/profile_bg.png) no-repeat 100% 0;
+}
+body#star div#main #maincol #profile dl dt {
+	margin-bottom: 10px;
+}

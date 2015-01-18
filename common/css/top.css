@@ -1,0 +1,202 @@
+@charset "utf-8";
+
+div#flash-content {
+	width: 815px;
+	height: 210px;
+	margin-left: 26px;
+	padding-left: 5px;
+	background: url(../../img/main_img_bg.gif) no-repeat top;
+}
+
+/*maincol---------------------------------------------------------
+----------------------------------------------------------------*/
+div#main div#maincol {
+	width: 580px;
+	padding: 10px 15px 0px 0px;
+	float: left;
+	background: url(../../img/main_bg_sidecol.gif) no-repeat right 10px;
+}
+div#main div#maincol #star-bnr {
+	width: 535px;
+	padding: 0px 0px 10px 25px;
+}
+div#main div#maincol #star-bnr p {
+	width: 513px;
+	padding: 5px 10px;
+	border: #EDD solid;
+	border-width: 0 1px 1px;
+	font-size: 1.2em;
+}
+div#main div#maincol div.hotel-block {
+	width: 535px;
+	padding: 0px 0px 10px 25px;
+	float: left;
+}
+
+/*--------------------------------------------------------------*/
+div#main div.hotel-header {
+	width: 535px;
+	height: 114px;
+}
+div#main div#maincol div#hatsukaichi div.hotel-header {	background: url(../../img/main_title_bg_hat.jpg) no-repeat 22px bottom;}
+div#main div#maincol div#kabe div.hotel-header {	background: url(../../img/main_title_bg_kab.jpg) no-repeat bottom right;}
+div#main div#maincol div#funakoshi div.hotel-header {	background: url(../../img/main_title_bg_fun.jpg) no-repeat bottom right;}
+
+div#main div#maincol div.hotel-header h2 {
+	width: auto;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	background: none;
+}
+div#main div#maincol div.hotel-header h2 img {
+	margin: 0px;
+	padding: 0px;
+}
+div#main div#maincol div.hotel-header ul {
+	padding-top: 18px;
+	padding-left: 15px;
+	float: left;
+}
+div#main div#maincol div.hotel-header ul li {
+	float: left;
+}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol div.hotel-body {
+	padding: 5px 0px 0px 22px;
+}
+div#main div#maincol div.hotel-body h3 {
+	width: 505px;
+	padding: 0px 0px 2px;
+	background: url(../img/dot_1.gif) repeat-x bottom;
+	overflow: visible;
+}
+div#main div#maincol div.hotel-body h3 img {
+	width: auto;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+div#main div#maincol div.hotel-body h3 span.archive {
+	margin: 0px;
+	padding: 0px;
+	float: right;
+	background: none;
+}
+div#main div#maincol div.hotel-body dl {
+	width: 485px;
+	padding: 5px 10px;
+	line-height: 2;
+	font-size: 1.2em;
+	background: url(../img/dot_1.gif) repeat-x bottom;
+}
+div#main div#maincol div.hotel-body dl dt {
+	margin-right: 10px;
+}
+div#main div#maincol div.hotel-body dl dd {
+	margin-top: -2em;
+	margin-left: 7em;
+	line-height: 1.5;
+}
+div#main div#maincol div.hotel-body dl dd a {
+	padding: 2px 0px 2px 65px;
+	display: block;
+}
+div#main div#maincol div.hotel-body dl dd.campaign a { background: url(../../img/main_cat_campaign.gif) no-repeat 0px -55px;}
+div#main div#maincol div.hotel-body dl dd.campaign a:hover { background: url(../../img/main_cat_campaign.gif) no-repeat 0px 5px;}
+div#main div#maincol div.hotel-body dl dd.staff a { background: url(../../img/main_cat_staff.gif) no-repeat 0px -55px;}
+div#main div#maincol div.hotel-body dl dd.staff a:hover { background: url(../../img/main_cat_staff.gif) no-repeat 0px 5px;}
+div#main div#maincol div.hotel-body dl dd.news a { background: url(../../img/main_cat_info.gif) no-repeat 0px -55px;}
+div#main div#maincol div.hotel-body dl dd.news a:hover { background: url(../../img/main_cat_info.gif) no-repeat 0px 5px;}
+
+/*--------------------------------------------------------------*/
+
+div#main div#maincol div.hotel-body dl dd.pickup a { background: url(../../img/main_cat_pickup.gif) no-repeat 0px -55px;}
+div#main div#maincol div.hotel-body dl dd.pickup a:hover { background: url(../../img/main_cat_pickup.gif) no-repeat 0px 5px;}
+
+/*--------------------------------------------------------------*/
+div#main div#maincol div.hotel-block p {
+	margin: 5px 0px;
+	font-size: 1.2em;
+	float: right;
+}
+div#main div#maincol div.hotel-block p.hotel-info {
+	padding-left: 20px;
+	background: url(../../img/main_icon_pin.gif) no-repeat left center;
+}
+div#main div#maincol div.hotel-block p.hotel-info span.tel-num {
+	padding-left: 5px;
+	font-size: 0.85em;
+}
+div#main div#maincol div#hatsukaichi p a { color: #73abb1;}
+div#main div#maincol div#kabe p a { color: #64a15c;}
+div#main div#maincol div#funakoshi p a { color: #ba854a;}
+
+div#main div#maincol div#hatsukaichi p a:hover { color: #437b81;}
+div#main div#maincol div#kabe p a:hover { color: #34712c;}
+div#main div#maincol div#funakoshi p a:hover { color: #8a551a;}
+
+
+/*subcol----------------------------------------------------------
+----------------------------------------------------------------*/
+div#main div#subcol {
+	width: 250px;
+	padding-top: 10px;
+	float: left;
+}
+
+div#main div#subcol h3 {
+	width: 246px;
+	margin-bottom: 10px;
+	padding: 10px 2px 5px;
+	font-size: 1.2em;
+	font-weight: bold;
+	background: url(../img/dot_2.gif) repeat-x bottom;
+}
+div#main div#subcol p {
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+div#main div#subcol p.btn {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+div#main div#subcol ul#bnr-block {
+	padding: 10px 0px;
+}
+div#main div#subcol ul#bnr-block li {
+	margin-bottom: 10px;
+}
+
+div#main div#subcol div.coupon-bnr {
+	margin-bottom: 30px;
+}
+div#main div#subcol div.coupon-bnr h3 {
+	width: auto;
+	margin: 0 0 5px;
+	padding: 3px 0 0;
+	font-size: 1.2em;
+	font-weight: bold;
+	background: none;
+}
+div#main div#subcol div.coupon-bnr ul {
+	padding: 15px 0 5px;
+	background: url(../img/bb_fukidashi.jpg) no-repeat 95% 100%;
+}
+div#main div#subcol div.coupon-bnr ul li {
+	padding: 1px;
+}
+div#main div#subcol div.coupon-bnr ul li a {
+	display: block;
+	margin-left: 10px;
+	margin-bottom: 2px;
+	padding-left: 15px;
+	font-size: 1.2em;
+	background: url(../img/sub/top/main_list_arrow_info.gif) no-repeat 0 50%;
+}
+div#main div#subcol div.coupon-bnr ul li a:hover {
+	background-position: 2px 50%;
+}

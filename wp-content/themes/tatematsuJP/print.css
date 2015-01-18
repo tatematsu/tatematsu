@@ -1,0 +1,69 @@
+#header_nav,
+#footer_nav,
+.inquiry_btn {
+	display:none;
+	
+}
+#web_license img {
+	display:none;
+	
+}
+
+div.wp_social_bookmarking_light {
+	display:none;
+	
+}
+#main {
+	width:100%;
+	
+}
+
+#sidebar {
+	display:none;
+}
+#price {
+	
+}
+.price_menu {
+	display:none;	
+}
+#listingads_plan {
+
+}
+#send_expert {
+	display:none;
+}
+#listing_ads {
+	width:100%;
+	
+}
+#listingads_plan .exp,
+#webconsulting_plan .exp {
+	width:90%;
+	border:1px dotted #000;
+	margin:0 auto 3px auto;
+	padding:7px;
+	background:#fffaf0;
+}
+
+#listingads_plan h4,
+#webconsulting_plan h4 {
+	width:100%;
+	padding:7px;
+	margin:auto;
+}
+
+#price table {
+	font-size:0.78em;
+	background:#b0c4de;
+	margin:0 auto 0 auto;
+	width:100%;
+}
+#price table td,
+#price table th {
+	border: 1px dotted #000;
+	margin:0;
+}
+#footer {
+	display:none;	
+}
